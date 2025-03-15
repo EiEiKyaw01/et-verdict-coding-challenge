@@ -1,8 +1,30 @@
-# React + Vite
+# Web app with search functionality 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web application allows users to search and display card data retrieved from an API.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/EiEiKyaw01/et-verdict-coding-challenge.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd et-verdict-coding-challenge
+   ```
+3. Install dependencies:
+   ```sh
+   npm install  
+   ```
+4. Run the project:
+   ```sh
+   npm run dev
+   ```
+
+## Usage
+
+There will be first 10 card retrieved form external API. User can rsearch by title or body.
+
+## Search Function Approach
+
+The search function supports case-insensitive queries for better usability. Every time user click "Enter" key or click "Search" icon, first 10 card of the data match form title or body will display.
