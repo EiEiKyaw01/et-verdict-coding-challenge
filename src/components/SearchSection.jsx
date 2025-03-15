@@ -16,17 +16,20 @@ const SearchSection = () => {
    };
 
    return (
-      <form onSubmit={handleSubmit} className="max-w-[600px] pt-5 flex gap-2 m-auto">
+      <form
+         onSubmit={handleSubmit}
+         className="max-w-[600px] pt-5 flex gap-2 m-auto"
+      >
          <input
             type="text"
             value={inputValue}
-            className="bg-gray-50 border border-[#2B2D42] text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block flex-grow p-2.5"
+            className="bg-gray-50 border border-[#4a3267] text-gray-900 text-sm rounded-lg block flex-grow p-2.5"
             placeholder="Search by title or body..."
             onChange={handleSearch}
          />
-         <button 
+         <button
             type="submit"
-            className="bg-[#2B2D42] border text-sm rounded-lg p-2.5 hover:bg-[#3e4259] transition-colors"
+            className="bg-[#4a3267] text-sm rounded-lg p-2.5 hover:scale-105 transition-transform duration-300"
          >
             <svg
                width="24"

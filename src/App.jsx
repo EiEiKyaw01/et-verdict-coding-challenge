@@ -11,10 +11,10 @@ const App = () => {
   }, [fetchPosts]);
 
   return (
-    <div className="bg-[#EDF2F4] min-h-screen p-5">
-      <SearchSection />
-      <CardSection />
-    </div>
+     <div className="bg-[#F7b9c4] min-h-screen p-5">
+        <SearchSection />
+        <CardSection />
+     </div>
   );
 };
 

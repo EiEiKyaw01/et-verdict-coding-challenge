@@ -53,7 +53,7 @@ const CardSection = () => {
 
   return (
     <div>
-      <section className="max-w-[1200px] mt-10 flex flex-wrap justify-center gap-5 m-auto">
+      <section className="max-w-[1300px] mt-10 flex flex-wrap justify-center gap-10 m-auto">
         {filteredPosts.map((post) => (
           <Card 
             key={post.id} 
