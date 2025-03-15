@@ -25,6 +25,7 @@ This web application allows users to search and display card data retrieved from
 
 There will be first 10 card retrieved form external API. User can rsearch by title or body.
 
-## Search Function Approach
+## Project Approach
 
 The search function supports case-insensitive queries for better usability. Every time user click "Enter" key or click "Search" icon, first 10 card of the data match form title or body will display.
+Zustand is used for stage management.
